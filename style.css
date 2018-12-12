@@ -1,0 +1,95 @@
+.menu{
+	width: calc(25vw - 2px);
+	height: calc(10vh - 1px);
+	float: left;
+	text-align: center;
+	border-style: groove;
+	border-width: 1px;
+	border-color: black;
+	border-top: none;
+	margin: 0;
+    border-bottom-left-radius:50%;
+    border-bottom-right-radius:50%;
+}
+
+.red{
+	background-color: red;
+}
+
+.white{
+	background-color: white;
+}
+
+.brown{
+	background-color: #930000;
+}
+
+.radient{
+  background: linear-gradient(90deg, #ff0404, #a40000, #ff0404);
+}
+
+.double{
+	border-style: double;
+	border-width: 3px;
+	border-color: black;
+}
+
+.link{
+	text-decoration: none;
+	color: black;
+}
+
+#site_title{
+	text-align: center;
+	align: middle;
+	height: calc(10vh - 1px);
+	width: calc(100vw - 2px);
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	width: -webkit-fill-available;
+	height: -webkit-fill-available;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	width: 100vw;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+}
+
+main{
+	text-align: center;
+	height: calc(80vh - 2px);
+	width: calc(100vw - 2px);
+	border-style: groove;
+	border-width: 1px;
+	border-color: black;
+	margin: 0;
+	padding: 0;
+}
+
+p{
+	margin: 0;
+	font-size: 4vh;
+}
+
+div.menu:hover{
+	cursor: hand;
+	cursor: pointer;
+}
+
+footer{
+	text-align: center;
+	height: calc(10vh - 2px);
+	width: calc(100vw - 2px);
+	border-style: groove;
+	border-width: 1px;
+	border-color: black;
+	margin: auto;
+	padding: 0;
+}

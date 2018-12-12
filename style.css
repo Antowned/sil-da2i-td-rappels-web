@@ -1,19 +1,32 @@
 .menu{
-	width: calc(25vw - 2px);
-	height: calc(10vh - 1px);
+	width: calc(25% - 2px);
+	height: calc(10%);
 	float: left;
 	text-align: center;
 	border-style: groove;
 	border-width: 1px;
 	border-color: black;
 	border-top: none;
-	margin: 0;
+	padding-top: 2%;
     border-bottom-left-radius:50%;
     border-bottom-right-radius:50%;
 }
 
 .red{
 	background-color: red;
+}
+
+.borders{
+	border-style: groove;
+	border-width: 2px;
+	border-color: black;
+	width: calc(25% - 4px);
+	float: left;
+	min-height: 25%;
+}
+
+#over{
+	overflow: auto;
 }
 
 .white{
@@ -42,8 +55,8 @@
 #site_title{
 	text-align: center;
 	align: middle;
-	height: calc(10vh - 1px);
-	width: calc(100vw - 2px);
+	height: calc(10% - 6px);
+	width: calc(100% - 6px);
 	margin: 0;
 	padding: 0;
 }
@@ -64,8 +77,8 @@ body{
 
 main{
 	text-align: center;
-	height: calc(80vh - 2px);
-	width: calc(100vw - 2px);
+	height: calc(80% - 2px);
+	width: calc(100% - 2px);
 	border-style: groove;
 	border-width: 1px;
 	border-color: black;
@@ -85,11 +98,11 @@ div.menu:hover{
 
 footer{
 	text-align: center;
-	height: calc(10vh - 2px);
-	width: calc(100vw - 2px);
+	height: calc(10% - 2px);
+	width: calc(100% - 2px);
 	border-style: groove;
 	border-width: 1px;
 	border-color: black;
-	margin: auto;
+	margin: 0;
 	padding: 0;
 }
